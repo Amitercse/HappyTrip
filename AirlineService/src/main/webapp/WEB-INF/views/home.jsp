@@ -9,6 +9,7 @@
 </head>
 <body>
 <h1>Welcome to Airline Service Portal</h1>
+<!--Binding form attributes with User details. -->
 <form:form action="/login" modelAttribute="login" method="post">
     	<p>Id: <form:input type="text" path="userId" /></p>
         <p>Password: <form:input type="password" path="password" /></p>
